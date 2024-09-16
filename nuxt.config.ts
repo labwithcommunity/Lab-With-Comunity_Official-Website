@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint', 'nuxt-typed-router'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/eslint',
+    'nuxt-typed-router',
+    '@nuxtjs/storybook',
+  ],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {

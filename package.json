@@ -8,10 +8,13 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.7",
+    "@nuxtjs/storybook": "^8.2.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "nuxt": "^3.13.0",
     "nuxt-typed-router": "^3.6.5",
@@ -23,6 +26,17 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.11",
     "typescript": "^5.6.2",
-    "vite": "^5.4.5"
+    "vite": "^5.4.5",
+    "storybook": "8.0.8",
+    "@types/node": "^18.17.5",
+    "@storybook/vue3": "8.0.8",
+    "@storybook-vue/nuxt": "0.2.6",
+    "@nuxtjs/storybook": "7.0.2",
+    "@storybook/addon-links": "8.0.8",
+    "@storybook/builder-vite": "8.0.8",
+    "@storybook/addon-essentials": "8.0.8",
+    "@storybook/addon-interactions": "8.0.8",
+    "@storybook/test": "8.0.8",
+    "@storybook/blocks": "8.0.8"
   }
 }
