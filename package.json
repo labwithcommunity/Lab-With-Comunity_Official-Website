@@ -54,6 +54,7 @@
 		]
 	},
 	"dependencies": {
+		"sass": "^1.79.2",
 		"valibot": "^0.42.0"
 	}
 }
