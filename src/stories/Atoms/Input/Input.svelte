@@ -7,7 +7,7 @@
 	export let name: string;
 	export let placeholder = '';
 
-	export let state: Optional<'success' | 'error'> = null;
+	export let isError: boolean = false;
 
 	export let required = true;
 	export let disabled = false;
@@ -16,9 +16,8 @@
 </script>
 
 <label
-	class="flex w-full rounded-md border border-gray-600 p-1 text-gray-400"
-	class:success={state == 'success'}
-	class:error={state == 'error'}
+	class="{$$props.class} flex w-full rounded-md border border-gray-600 p-1 text-gray-400"
+	class:error={isError}
 >
 	<input
 		class="w-full bg-transparent focus:outline-none"
@@ -40,3 +39,11 @@
 		</button>
 	{/if}
 </label>
+
+<style lang="postcss">
+	.error {
+		/* border-gray-600 text-gray-400 */
+		border-color: theme(colors.red.800);
+		color: theme(colors.red.800);
+	}
+</style>
