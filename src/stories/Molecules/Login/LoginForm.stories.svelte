@@ -2,7 +2,7 @@
 	import LoginForm from './LoginForm.svelte';
 
 	export const meta = {
-		title: 'Atoms/LoginForm',
+		title: 'Molecules/LoginForm',
 		component: LoginForm
 	};
 </script>
