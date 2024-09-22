@@ -13,12 +13,6 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Text: Story = {
-	argTypes: {
-		state: {
-			control: { type: 'select' },
-			options: ['success', 'error', null]
-		}
-	},
 	args: {
 		name: 'Text',
 		placeholder: 'Text'
