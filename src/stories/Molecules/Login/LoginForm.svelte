@@ -1,3 +1,4 @@
+
 <script lang="ts">
 	import Input from '../../Atoms/Input/Input.svelte';
 	import Button from '../../Atoms/Button/Button.svelte';
@@ -22,6 +23,9 @@
 			isError = true;
 		}
 	};
+
+
+
 </script>
 
 <form on:submit|preventDefault={test} class="{$$props.class} flex w-fit flex-col gap-2 p-2">
