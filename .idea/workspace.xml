@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4cfe930-76e1-4b21-b663-9912207ac783" name="Changes" comment="" />
+    <list default="true" id="f4cfe930-76e1-4b21-b663-9912207ac783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stories/Molecules/ForgotPassword/ForgotPassword.storybook.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Molecules/ForgotPassword/ForgotPassword.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Molecules/Register/RegisterForm.stories.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Molecules/Register/RegisterForm.stories.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Molecules/Register/RegisterForm.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Molecules/Register/RegisterForm.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,8 @@
         <option value="TypeScript File" />
         <option value="RegisterForm" />
         <option value="RegisterForm.stories" />
+        <option value="ForgotPassword" />
+        <option value="ForgotPassword.storybook" />
       </list>
     </option>
   </component>
@@ -23,7 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
     <option name="sortByName" value="true" />
   </component>
   <component name="ProjectColorInfo">{
@@ -71,6 +80,9 @@
       <workItem from="1726995193307" duration="5180000" />
       <workItem from="1727020650370" duration="594000" />
       <workItem from="1727027747846" duration="820000" />
+      <workItem from="1727547053620" duration="125000" />
+      <workItem from="1727547310157" duration="1183000" />
+      <workItem from="1727596573878" duration="639000" />
     </task>
     <servers />
   </component>

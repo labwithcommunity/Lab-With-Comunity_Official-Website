@@ -2,8 +2,8 @@
 	import RegisterForm from './RegisterForm.svelte';
 
 	export const meta = {
-		title: 'Atoms/RegisterForm',
-		component: RegisterForm
+		title: 'Molecules/RegisterForm',
+		component: RegisterForm,
 	};
 </script>
 
