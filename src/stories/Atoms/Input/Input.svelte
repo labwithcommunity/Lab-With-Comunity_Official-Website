@@ -16,7 +16,7 @@
 </script>
 
 <label
-	class="{$$props.class} flex w-full rounded-md border border-gray-600 p-1 text-gray-400"
+	class="{$$props.class} flex w-full rounded-md border-2 border-primary-300 p-1 drop-shadow-sm *:placeholder:text-primary-300"
 	class:error={isError}
 >
 	<input
@@ -42,8 +42,10 @@
 
 <style lang="postcss">
 	.error {
-		/* border-gray-600 text-gray-400 */
-		border-color: theme(colors.red.800);
-		color: theme(colors.red.800);
+		border-color: theme(colors.error.400);
+		color: theme(colors.error.300);
+		::placeholder {
+			color: theme(colors.error.400);
+		}
 	}
 </style>
