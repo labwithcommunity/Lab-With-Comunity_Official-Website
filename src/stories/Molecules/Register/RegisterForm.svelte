@@ -31,6 +31,7 @@
 <form on:submit|preventDefault={test} class="{$$props.class} flex w-fit flex-col gap-2 p-2">
 	<Input {isError} name="email" type="email" bind:value={loginData.email}></Input>
 	<Input {isError} name="password" type="password" bind:value={loginData.password}></Input>
+	<Input {isError} name="Confirmpassword" type="password" bind:value={loginData.password}></Input>
 	<AutoTransitionH show={isError}>
 		<div class="text-red-800">Nieprawidłowy login lub hasło.</div>
 	</AutoTransitionH>
